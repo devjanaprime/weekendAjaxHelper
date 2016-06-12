@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Calc example</title>
+    <script src="scripts/jquery-3.0.0.min.js" charset="utf-8"></script>
+    <script src="scripts/script.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h2>Ajax Weekend Helper</h2>
+    <p>
+      This exampls simply takes some input from the user and sends it to the server as an object in an ajax POST. Then the server does something simple to it (concatenates) and sends back the final value. From here, the client takes this data, creates a new P tag, adds the data to the P tag as it's text, and appends it to the DOM in a div.
+    </p>
+      <!-- input field -->
+      <input type="text" name="input1" id="input1" value="" placeholder="something goes here">
+      <!-- send button -->
+      <button id='sendButton'>Send to Server</button>
+      <!-- output div -->
+      <div id='outputDiv'>
+      </div>
+  </body>
+</html>
